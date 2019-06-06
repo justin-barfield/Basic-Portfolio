@@ -140,14 +140,21 @@ footer {
     padding: 10px 0 20px 0;
     border: 1px solid black;
     float: left;
+    overflow: auto;
 }
 
 .portfolioPics {
     max-width: 90%;
+
 }
 
 .tilesText {
     border: 1px solid pink;
     background: #4aaaa5;
-    color: #ffffff
+    color: #ffffff;
+    position: absolute;
+    width: 271px;
 }
+
+/* Contact style */
+
