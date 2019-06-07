@@ -126,7 +126,7 @@ footer {
 
 /* portfolio specific style */
 
-#portfolioTable {
+/* #portfolioTable {
     table-layout: fixed;
     width: 100%;
 }
@@ -154,7 +154,58 @@ footer {
     background: #4aaaa5;
     color: #ffffff;
     position: absolute;
-    width: 271px;
+    width: 100%;
+} */
+
+.portfolioList {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 55%;
+    float: left;
+}
+
+#picture1 {
+    background-image: url(../images/flower1.jpg);
+}
+
+#picture2 {
+    background-image: url(../images/shore1.jpg);
+}
+
+#picture3 {
+    background-image: url(../images/tree1.jpg);
+}
+
+#picture4 {
+    background-image: url(../images/tree2.jpg);
+}
+
+#picture5 {
+    background-image: url(../images/water1.jpg);
+}
+
+.portfolioPictures {
+    background-size: 200px 150px;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    padding: 100px 10px 55px 10px;
+    border: 1px solid black;
+}
+/* Would like to make this a class
+    but unsure how to. .portfolioSpan */
+span {
+    background: #4aaaa5;
+    padding: 15px 65.5px;
+    margin-top: 3px;
+    color: #ffffff;
+    white-space: nowrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Contact style */
